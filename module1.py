@@ -26,6 +26,7 @@ def arithmetic(a: float,b:float, c:str):
         r=0.0
     return  r
 
+#Visokosnqi god-liigaasta
 
 def is_year_leap(aasta: int):
     """Liigaasta leidmine
@@ -39,6 +40,8 @@ def is_year_leap(aasta: int):
         vastus=False
     return vastus
 
+#Tehingud ruuduga
+
 def square(a=float):
     """Ruudu külg
     P=ümbermõõt
@@ -47,5 +50,18 @@ def square(a=float):
    :param float a: Ruudu külg
    :rtype float:
    """
-   if vastus=="P":
+vas=() 
+   from math import*
+   if vas=="P":
+       P=a*4
+   elif vas=="S":
+       S=a**
+   elif vas=="di"
+       di=a*sqrt(2)
+     round(di,2))
+   else:
+       print("Viga")
+
+    return P, S, di
+
        
