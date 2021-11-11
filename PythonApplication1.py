@@ -13,7 +13,7 @@ while True:
         print(rezult)
 
 #Tehingud ruuduga
-def square (a):
+def kvadrat():
 
 result=square(int(input("Введите сторону квадрата: ")))
 print (result)
@@ -22,18 +22,18 @@ print (result)
 #Aastaaeg
 
 def season(kuu):
-   if kuu in [12, 1, 2]:
+   if mesyac in [12, 1, 2]:
        print("Зима")
-   elif kuu in [3, 4, 5]:
+   elif mesyac in [3, 4, 5]:
        print("Весна")
-   elif kuu in [6, 7, 8]:
+   elif mesyac in [6, 7, 8]:
        print("Лето")
-   elif kuu in [9, 10, 11):
+   elif mesyac in [9, 10, 11):
        print("Осень")
    else:
        print("Viga")
 
-       print("Неверно введён номер месяца!")
+       print("Neverno vveden nomer msyaca!")
 
 n = int(input("Введите номер месяца (1-12): "))
 
